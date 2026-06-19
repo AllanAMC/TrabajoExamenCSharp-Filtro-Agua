@@ -20,7 +20,7 @@
                 while (true)
                 {
                     Console.Clear();
-                    Console.Write($"Valor PPM : {valorPpm:F2}     Ciclos actual: {contador}");
+                    Console.Write($"Valor PPM : {valorPpm:F2}     Ciclo actual: {contador}");
                     Thread.Sleep(450);
                     Console.Out.Flush();
 
@@ -36,14 +36,14 @@
                     if (valorPpm <= 10)
                     {
                         Console.Clear();
-                        Console.WriteLine($"Valor PPM FINAL: {valorPpm:F2}     Ciclo totales: {contador}");
+                        Console.WriteLine($"Valor PPM FINAL: {valorPpm:F2}     Ciclos totales: {contador}");
                         Console.WriteLine("\nAGUA POTABLE!");
                         break;
                     }
                     if (contador == 15)
                     {
                         Console.Clear();
-                        Console.WriteLine($"Valor PPM FINAL: {valorPpm:F2}     Ciclo totales: {contador}");
+                        Console.WriteLine($"Valor PPM FINAL: {valorPpm:F2}     Ciclos totales: {contador}");
                         Console.WriteLine("\nEL FILTRO SE HA SATURADO!");
                         break;
                     } 
