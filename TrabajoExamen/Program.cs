@@ -20,7 +20,7 @@
                 while (true)
                 {
                     Console.Clear();
-                    Console.Write($"Valor PPM : {valorPpm:F2}     Ciclo actual: {contador}");
+                    Console.Write($"Valor PPM : {valorPpm:F2}     Ciclos actual: {contador}");
                     Thread.Sleep(450);
                     Console.Out.Flush();
 
@@ -53,4 +53,4 @@
             } else { Console.WriteLine("VALOR INGRESADO INVALIDO."); }
         }
     }
-}
+} 
